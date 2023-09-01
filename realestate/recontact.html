@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Estate</title>
+    <link rel="stylesheet" href="./styles/mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <header class="site-header">
+      <div class="container flex-vertical">
+        <div class="bar">
+          <h1>Real Estate</h1>
+          <nav>
+            <a href="about">About</a>
+            <a href="blog">Blog</a>
+            <a href="contact">Contact</a>         
+          </nav>
+         </div>
+      </div>
+    </header>
+    <main>
+        <h2>Contact</h2>
+        <h3>Fill the next information</h3>
+
+        <fieldset>
+             
+            <legend>Personal information</legend>
+            <div class="form-container">
+            <label class="form-label">Name:</label>
+            <input type="text" class="form-control" placeholder="Type your name">
+            </div>
+
+            <div class="form-container">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Type your Email">
+            </div>
+
+            <div class="form-container">
+                <lable class="form-label">Phone</lable>
+                <input type="tel" class="form-control" placeholder="Type your phone number">
+            </div>
+
+            <div class="form-container">
+                <label class="form-label">Messages</label>
+                <textarea class="form-control" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Prodect Information</legend>
+            <div>
+              <label for="">Type</label>
+             <select name="" id="">
+                <option value="" disabled selected>Select an option</option>
+             </select>
+            </div>
+             <div class="form-container">
+                <lable class="form-label">Number</lable>
+                <input type="number" class="form-control" placeholder="######">
+             </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-flex">
+            <div>
+                <input type="radio" id="phone">
+                   <lable for="Phone">Phone</lable>
+                </div>
+                <div>
+            <input type="radio" id="Email" >
+            <label for="card">Email</label>
+               </div>
+         </div>
+         <div>
+            <p>If you want to be contacted by phone, please select a day and time</p>
+         </div>
+         <div>
+            <label class="form-label">Date:</label>
+            <input type="date" placeholder="mm/dd/yyyy">
+         </div>
+       <div>
+           <label class="form-label">Time</label>
+           <input type="time" placeholder="--:--">
+        </div>
+        </fieldset>
+
+        <button class="btn-form">Send</button>
+    </main>
+<footer> 
+    <h1>We have the house of your dreams</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ad quas beatae unde quae culpa, assumenda sequi fugiat ex molestias, reiciendis a impedit illo minima dignissimos saepe animi autem hic?</p>
+        <button class="btn-details">Contact us</button>
+</footer>
+</body>
+</html>
